@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>State Beach</title>
+	<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+
+<SCRIPT>
+<!--
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+// NS4-6,IE4-6
+
+// Set slideShowSpeed (milliseconds)
+var slideShowSpeed = 2500
+
+// Duration of crossfade (seconds)
+var crossFadeDuration = 2
+
+var Pic = new Array() 
+
+Pic[0] = 'images/dad_bowtie_175x175.jpg'
+Pic[1] = 'images/dad_uv2_175x175.jpg'
+Pic[2] = 'images/dad_fam_175x175.jpg'
+Pic[3] = 'images/dad_patty_smiling_175x175.jpg'
+Pic[4] = 'images/dad_uv_175x175.jpg'
+Pic[5] = 'images/dad_laughlin4_175x175.jpg'
+Pic[6] = 'images/dad_1943_175x175.jpg'
+Pic[7] = 'images/dad_60s_portrait_175x175.jpg'
+Pic[8] = 'images/dad_arnie_cat_175x175.jpg'
+Pic[9] = 'images/dad_bc_golf_175x175.jpg'
+Pic[10] = 'images/dad_iowa_gang_175x175.jpg'
+Pic[11] = 'images/dad_iowa_grave_175x175.jpg'
+Pic[12] = 'images/dad_jp_sr_175x175.jpg'
+Pic[13] = 'images/dad_law_grad_175x175.jpg'
+Pic[14] = 'images/dad_lucille_1941_175x175.jpg'
+Pic[15] = 'images/dad_sc_bogey_175x175.jpg'
+Pic[16] = 'images/dad_toddler_portrait_175x175.jpg'
+Pic[17] = 'images/dad_hat_175x175.jpg'
+Pic[18] = 'images/dad_kid_pool_175x175.jpg'
+Pic[19] = 'images/dad_patty_laughlin_175x175.jpg'
+Pic[20] = 'images/dad_patty_sheila_1983_175x175.jpg'
+Pic[21] = 'images/stanford.jpg'
+
+var t
+var j = 0
+var p = Pic.length
+
+var preLoad = new Array()
+for (i = 0; i < p; i++){
+   preLoad[i] = new Image()
+   preLoad[i].src = Pic[i]
+}
+
+function runSlideShow(){
+   if (document.all){
+      document.images.SlideShow.style.filter="blendTrans(duration=2)"
+      document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)"
+      document.images.SlideShow.filters.blendTrans.Apply()      
+   }
+   document.images.SlideShow.src = preLoad[j].src
+   if (document.all){
+      document.images.SlideShow.filters.blendTrans.Play()
+   }
+   j = j + 1
+   
+   if (j > (p-1)) { //keep looping
+   	j = 0
+   }
+   
+   //if (j > (p-1)) return false; //no loop
+   
+   t = setTimeout('runSlideShow()', slideShowSpeed)
+}
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor="#990000" onload="runSlideShow()">
+<table width="100%" height="100%">
+<tr>
+<td align="center">
+	<table width="758" cellpadding="0" cellspacing="0" border="0"  style="background-color: #FFFFFF; border: solid #336633 1px;">
+		<tr>
+			<td valign="top" align="center" colspan="4"><A HREF="dadisms.html"><img src="images/statebeach.jpg" width="373" height="150" alt="" border="0"></A></td>
+		</tr>
+		<tr>
+			<td valign="top" align="center" colspan="4" style="background-color: #990000;"><img src="images/spacer.gif" width="1" height="3" alt="" border="0"></td>
+		</tr>
+		<tr>
+		<tr>
+			<td valign="middle" align="center" colspan="4" style="height: 20px;"><a href="index.html" class="nav">home</a> &nbsp; : &nbsp; <a href="obits.html" class="nav">obituaries & memories</a> &nbsp; : &nbsp; <a href="bio.html" class="nav">bio</a> &nbsp; : &nbsp; <a href="quotes.html" class="nav">quotes</a> &nbsp; : &nbsp; <a href="photos.html" class="nav">photos</a> &nbsp; : &nbsp; <a href="dadisms.html" class="nav">dadisms</a> &nbsp; : &nbsp; <a href="art.html" class="nav">art</a> &nbsp; : &nbsp; <a href="contact.html" class="nav">contact</a></td>
+		</tr>
+		<tr>
+			<td valign="top" align="center" colspan="4" style="background-color: #990000;"><img src="images/spacer.gif" width="1" height="3" alt="" border="0"></td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><img src="images/dad_bowtie_175x175.jpg" width="175" height="175" alt="" border="0" style="border-right: solid #990000 1px; border-bottom: solid #990000 1px;" name="SlideShow"></td>
+			<td valign="top" align="left"><img src="images/spacer.gif" width="20" height="1" alt="" border="0"></td>
+			<td valign="top" align="left"><img src="images/spacer.gif" width="1" height="10" alt="" border="0"><br>
+<P>
+			<p><span class="header">IN MEMORY OF JUSTICE THOMAS FULTON CROSBY, JR.<BR> (1940-2004)</span></p>
+			<p><B>"See you around State Beach"</B> - <I>Tom Crosby</I></p>
+
+
+<p>Taped to Tom's computer:</p>
+			<p>“It is not the critic who counts, nor the man who points out where the strong man stumbled, nor where the doer of deeds could have done them better.  On the contrary, the credit belongs to the man who is actually in the arena – whose vision is marred by the dust and sweat and blood; who strives valiantly; who errs and comes up again and again; who knows the great devotions, the great enthusiasms; who at best knows in the end the triumph of high achievement.</p>
+
+			<p>“However, if he fails, if he falls, at least he fails while daring so greatly so that his place shall never be with those cold and timid souls who know neither victory nor defeat.”
+</p>
+			<p>--Theodore Roosevelt, part of the speech, "Citzenship in a Republic," delivered at the Sorbonne April 23, 1910.</p>
+
+<HR>
+<P>
+Dad had very strong political views, and felt the Bush administration represented the worst of America.  Here are two sites he approved of:
+<P>
+<A HREF="http://www.washingtonpost.com/wp-srv/world/iraq/casualties/facesofthefallen.htm">Americans killed in Iraq</A> | <A HREF="http://www.moveon.org">MoveOn.org</A>
+</P>
+			</td>
+			<td valign="top" align="left"><img src="images/spacer.gif" width="100" height="10" alt="" border="0"></td>
+		</tr>
+		<tr>
+			<td valign="top" align="left" colspan="4"><img src="images/spacer.gif" width="1" height="100" alt="" border="0"></td>
+		</tr>
+	</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

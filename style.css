@@ -1,0 +1,13 @@
+p {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px; color: #000000; text-decoration: none;}
+.text {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px; color: #000000; text-decoration: none;}
+A {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px; color: #990000; text-decoration: underline;}
+A:link {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px; 12px; color: #990000; text-decoration: underline;}
+A:hover {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px; 12px; color: #666666; text-decoration: underline;}
+.header {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; color: #990000; text-decoration: none;}
+li {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px;  color: #990000; text-decoration: none;}
+.small {font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 10px; color: #990000; text-decoration: none;}
+.nav {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; color: #990000; text-decoration: none;}
+A.nav {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; color: #990000; text-decoration: none;}
+A.nav:link {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; color: #990000; text-decoration: none;}
+A.nav:hover {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; color: #666666; text-decoration: none;}
+.btn {background-color:#990000; border: #FFCE00 solid 1px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; color: #FFCE00; text-decoration: none;}
